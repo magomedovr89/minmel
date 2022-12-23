@@ -24,7 +24,7 @@ with open('coords_canal.csv', 'a+', newline='', encoding="utf8") as csvfile:
                 print("  Nodes:")
                 for node in way.nodes:
                     #writer.writerow([i, i ** 2, "Квадрат числа %d равен %d" % (i, i ** 2)])
-                    writer.writerow([node.lat, node.lon, 'Description', 'канал Караногайская ветвь'])
+                    writer.writerow([node.lat, node.lon])
                 # break
             # break
 
