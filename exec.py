@@ -4,7 +4,7 @@ import csv
 import overpy
 api = overpy.Overpass()
 result = api.query("""
-    way(44.181073,44.784200,44.468061,45.734029);
+    way(43.694780,44.540892,44.851488,46.543579);
     (._;>;);
     out body;
     """)
